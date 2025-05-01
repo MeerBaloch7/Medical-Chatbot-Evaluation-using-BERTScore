@@ -1,0 +1,50 @@
+{
+    "results": [
+        {
+            "student_question": "hi, goerge, how you came today",
+            "ground_truth_question": "hey george how are you today i understand you're here for some numbness and tingling in your fingers and some pain in your wrist",
+            "patient_response": "I'm here because my wrist and hand have been hurting for a few months, and I've been having numbness and weakness, especially at night, which is really affecting my work as a landscaper.",
+            "bertscore_precision": 0.7905,
+            "bertscore_recall": 0.6965,
+            "bertscore_f1": 0.7406
+        },
+        {
+            "student_question": "do you know when this pain started ",
+            "ground_truth_question": "okay and you said that's been ongoing for several months do you know what caused this type of pain or is it just something that started slowly or",
+            "patient_response": "The pain in my left wrist and hand started about 6 months ago, and it's been gradually getting worse.",
+            "bertscore_precision": 0.8199,
+            "bertscore_recall": 0.7086,
+            "bertscore_f1": 0.7602
+        },
+        {
+            "student_question": " do you feel same for your right hand ",
+            "ground_truth_question": "okay what about your right hand any problems with that hand",
+            "patient_response": "The pain is mainly in my left hand and wrist, but I do have some numbness and tingling in both hands, especially at night, and it's worse in my left thumb and index finger.",
+            "bertscore_precision": 0.8304,
+            "bertscore_recall": 0.8066,
+            "bertscore_f1": 0.8183
+        },
+        {
+            "student_question": "what type of work you do, are you using your left hand mostly in your work chores",
+            "ground_truth_question": "what kind of work do you do",
+            "patient_response": "I'm a landscaper, so I use my hands a lot for physical labor, digging, pruning, and operating machinery, and my left hand is definitely more involved in these activities.",
+            "bertscore_precision": 0.7585,
+            "bertscore_recall": 0.848,
+            "bertscore_f1": 0.8008
+        },
+        {
+            "student_question": "ok, how you do your household chores",
+            "ground_truth_question": "yard work",
+            "patient_response": "I do most of the household chores with my hands, like gardening, yard work, and even cooking, so I use my hands extensively, and the left hand is involved in most of these activities.",
+            "bertscore_precision": 0.6946,
+            "bertscore_recall": 0.7361,
+            "bertscore_f1": 0.7147
+        }
+    ],
+    "summary": {
+        "average_precision": 0.7788,
+        "average_recall": 0.7592,
+        "average_f1": 0.7669,
+        "total_questions": 5
+    }
+}
